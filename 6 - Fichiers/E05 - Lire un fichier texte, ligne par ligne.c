@@ -19,6 +19,7 @@ char **readLines(char *filename){
     strcpy(arr[i], line);
     i++;
   }
-  fclose(fd);
+  arr[i] = NULL;
+  //fclose(fd);
   return arr;
 }

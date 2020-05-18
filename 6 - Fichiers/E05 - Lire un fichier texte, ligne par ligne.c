@@ -20,6 +20,6 @@ char **readLines(char *filename){
     i++;
   }
   arr[i] = NULL;
-  //fclose(fd);
+  fclose(fd);
   return arr;
 }

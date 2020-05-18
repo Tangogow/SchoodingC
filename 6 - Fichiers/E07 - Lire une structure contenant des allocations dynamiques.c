@@ -25,7 +25,7 @@ char *readString(FILE *f) {
   return res;
 }
 
-P​‍‌‍﻿﻿﻿‌﻿eople* readPeople(char* filename) {
+People* readPeople(char* filename) {
   FILE* f;
 
   f = fopen(filename, "r");
